@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(214, 222, 230);
+}
+
+header {
+    background-color: rgb(89, 180, 212);
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: xx-large;
+}
+
+#menu {
+    font-size: x-large;
+}
+
+#contenu {
+    font-size: x-large;
+    margin: 2rem;
+}
+
+#contenu * {
+    margin: 0.1rem;
+}
+
+footer {
+    background-color: rgb(203, 186, 219);
+    border-radius: 0.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    font-size: x-large;
+}
+
+.erreur{
+    color: red;
+    font-size: medium;
+    font-style: italic;
+}
+
+.zone-erreur {
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-style: dotted;
+    color: red;
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 2rem!important;
+}
+
+.zone-info {
+    border: 1px solid green;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border-style: dotted;
+    color: green;
+    font-size: medium;
+    font-style: italic;
+    margin-bottom: 2rem!important;
+}
+
